@@ -1,3 +1,33 @@
-h1 {
-  color: salmon;
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+body {
+  color: #484848;
+  background-color: #eee;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: circular, helvetica;
+}
+div.city-list.row {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 900px;
+  height: 250px;
+  margin: auto;
+  position: relative;
+}
+div.city-list.row img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+div.city-list.row span{
+  color: white;
+  position:absolute;
+  font-size:20px;
+  top: 50px;
 }
