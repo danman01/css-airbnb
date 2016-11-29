@@ -1,3 +1,22 @@
-h1 {
-  color: salmon;
+body {
+  font-family: circular, "Helvetica Neau", arial;
+  background-color: #f0f0f0;
+  color: #484848;
 }
+body > div.container {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
+div.container.flex {
+  display: flex;
+  margin: auto;
+  height: 250px;
+}
+.flex img {
+  margin: auto;
+  width: 200px;
+  
+}
+
+
